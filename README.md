@@ -27,3 +27,30 @@ My professional trajectory is centered on the dual-disciplines of offensive secu
 
 ### References
 MITRE. (2024). *MITRE ATT&CK®*. https://attack.mitre.org/
+
+---
+
+### Security Foundations: Governance & Frameworks
+**The CIA Triad**
+The CIA triad is a foundational model consisting of Confidentiality, Integrity, and Availability.
+
+* **Confidentiality** ensures that sensitive information is accessible only to those with legitimate authorization.
+
+* **Integrity** guarantees that data is true, verified, and has not been altered by unauthorized sources.
+
+* **Availability** ensures that systems and data are consistently accessible to authorized users upon demand.
+
+**The AAA Framework**
+The AAA framework—**Authentication, Authorization, and Accounting**—defines the process for controlling access to network resources.
+
+* **Authentication** verifies the identity of a user or entity.
+
+* **Authorization** determines the specific level of access granted to that identified entity.
+
+* **Accounting** involves tracking and logging the actions taken by a user during their session for audit purposes.
+
+**The Impact of Governance on Cybersecurity Roles**
+Governance provides the necessary oversight and strategic framework for cybersecurity roles within an institution. It ensures that security practitioners operate within established policies to maintain organizational compliance. Effective governance prevents individuals and entities from violating internal company standards as well as broader state and federal regulations, such as HIPAA or GDPR.
+
+### References
+National Institute of Standards and Technology. (2014). *An introduction to information security* (NIST Special Publication 800-12 Revision 1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-12r1
