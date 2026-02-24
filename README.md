@@ -31,7 +31,8 @@ MITRE. (2024). *MITRE ATT&CK®*. https://attack.mitre.org/
 ---
 
 ### Security Foundations: Governance & Frameworks
-**The CIA Triad**
+**The CIA Triad:**
+
 The CIA triad is a foundational model consisting of Confidentiality, Integrity, and Availability.
 
 * **Confidentiality** ensures that sensitive information is accessible only to those with legitimate authorization.
