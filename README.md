@@ -41,6 +41,7 @@ The CIA triad is a foundational model consisting of Confidentiality, Integrity, 
 * **Availability** ensures that systems and data are consistently accessible to authorized users upon demand.
 
 **The AAA Framework**
+
 The AAA framework—**Authentication, Authorization, and Accounting**—defines the process for controlling access to network resources.
 
 * **Authentication** verifies the identity of a user or entity.
