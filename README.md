@@ -77,4 +77,36 @@ Today’s material aligns most closely with the Governance, Risk, and Compliance
 
 National Institute of Standards and Technology. (2014). *An introduction to information security* (NIST Special Publication 800-12 Revision 1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-12r1  
 
-MITRE. (2024). *ATT&CK Matrix for Enterprise*. https://attack.mitre.org/matrices/enterprise/
+MITRE. (2024). *ATT&CK Matrix for Enterprise*. https://attack.mitre.org/matrices/enterprise/  
+
+---
+
+### **Lab Infrastructure & Virtualization Setup**  
+
+A hypervisor is a software that sits as a layer on top of the physical host of the source CPU, ram and network.  It divides those resources up to virtualize them into individual virtual machines, or guests of the host machine, to create distinct virtual servers that are isolated to only see what data it needs to be seen.  Additionally, the other virtual servers are isolated from each other.  The hypervisor provides the security necessary to make that separation possible.
+
+Virtual machines are simply put, an entirely separate computer created by software that has been created on your physical computer, sometimes supported by an operating system and allocated a portion of the resources.  In this case the resources are shared by the operating system hosting it.  In other cases, the virtual machine is installed directly on the physical hardware, called a barebones or bare metal installation and in that case the virtual machine has direct access to the resources rather than a shared allocation.
+
+In cyber security, isolation is important regarding virtual machines for a variety or reasons.  one reason is that virtual machines are often used as testing environments.  Keeping those testing environments isolated prevents the machine hosting them form becoming compromised by any experimentation being done.  Isolation is also a key security issue when it comes to preventing unauthorized access between machines that may be being used by different people or departments in an organization.  It prevents those that don't have the right to access possible sensitive information from seeing what is going on in the virtual machine that is on the same system because of the barriers that are in place as part of the hypervisor's programming.
+
+It is because of the isolation aspect of VMs that the CIA Triad can be effectively implemented in this way:  
+
+* *Confidentiality* is assured as each virtual machine is kept separate by the hypervisor software  
+
+* *Integrity* is kept due to this isolation preventing the outside alteration of the other virtual machines that may be on the shared host system  
+
+* *Availability* is maintained in other isolated machines if one or more virtual machines should go offline for any reason, preventing the entire system from going down  
+
+### References  
+
+Red Hat. (n.d.). *What is a virtual machine?*  
+https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine  
+
+National Institute of Standards and Technology. (2011). *Guide to Security for Full Virtualization Technologies* (NIST Special Publication 800-125). U.S. Department of Commerce.  
+
+---
+
+### **Reflection:**  
+
+As previously stated, isolation is an essential part of security, especially when it comes to working with an environment where there is testing being done.  This isolation prevents any possible "bleed over" of malicious code to the host machine that is providing the environment for the virtual machines.  This makes the experimentation possible without the concern of possibly corrupting any important files or making it so that you will need to wipe your system to be sure that you have removed anything malicious that may have gotten onto your host system.  Instead you can just refresh your virtual machine the create a whole new clean working environment.  I feel that the concept of isolation complies mostly with the **Risk Management** aspect of the **GRC** as this pertains to the assessment, management and mitigation of any risks.  
+
