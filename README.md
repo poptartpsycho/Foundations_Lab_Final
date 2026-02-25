@@ -106,7 +106,7 @@ National Institute of Standards and Technology. (2011). *Guide to Security for F
 
 ---
 
-### **Reflection:**  
+### **Reflection**  
 
 As previously stated, isolation is an essential part of security, especially when it comes to working with an environment where there is testing being done.  This isolation prevents any possible "bleed over" of malicious code to the host machine that is providing the environment for the virtual machines.  This makes the experimentation possible without the concern of possibly corrupting any important files or making it so that you will need to wipe your system to be sure that you have removed anything malicious that may have gotten onto your host system.  Instead you can just refresh your virtual machine the create a whole new clean working environment.  I feel that the concept of isolation complies mostly with the **Risk Management** aspect of the **GRC** as this pertains to the assessment, management and mitigation of any risks.  
 
