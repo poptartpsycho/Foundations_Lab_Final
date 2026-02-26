@@ -5,7 +5,7 @@
 **Institutional Affiliation:** The Knowledge House    
 **Course:** Foundations Portfolio  
 **Instructor:** George Robbins  
-**Teaching Assistant** Jane Pierre     
+**Teaching Assistant:** Jane Pierre     
 **Date:** February 23, 2026  
 
 ---
